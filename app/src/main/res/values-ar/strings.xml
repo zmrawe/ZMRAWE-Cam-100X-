@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ZMRAWE CAM 100x</string>
+    <string name="mode_photo">صورة</string>
+    <string name="mode_video">فيديو</string>
+    <string name="mode_night">ليلي ذكي</string>
+    <string name="mode_pro_sr">فائق 100X</string>
+
+    <string name="zoom_1x">1X</string>
+    <string name="zoom_3x">3X</string>
+    <string name="zoom_5x">5X</string>
+    <string name="zoom_10x">10X</string>
+    <string name="zoom_30x">30X</string>
+    <string name="zoom_100x">100X</string>
+
+    <string name="ai_engine_active">محرك الذكاء الاصطناعي دون إنترنت نشط</string>
+    <string name="ai_clarity_boost">تعزيز الوضوح بالذكاء الاصطناعي</string>
+    <string name="noise_reduction">تقليل الضوضاء</string>
+    <string name="smart_sharpening">الحدة والتفاصيل الذكية</string>
+    <string name="hdr_fusion">دمج التعريض المتعدد HDR</string>
+    <string name="edge_enhancement">تحسين الحواف والخطوط</string>
+    <string name="super_resolution">الدقة الفائقة (Super-Res)</string>
+
+    <string name="capture_photo">التقاط صورة</string>
+    <string name="start_recording">بدء التسجيل</string>
+    <string name="stop_recording">إيقاف التسجيل</string>
+    <string name="recording">تسجيل</string>
+
+    <string name="settings_title">إعدادات الكاميرا</string>
+    <string name="language_title">اللغة / Language</string>
+    <string name="language_auto">تلقائي (لغة النظام)</string>
+    <string name="language_english">الإنجليزية (English)</string>
+    <string name="language_arabic">العربية (Arabic)</string>
+
+    <string name="flash_label">الفلاش</string>
+    <string name="flash_off">إيقاف</string>
+    <string name="flash_on">تشغيل</string>
+    <string name="flash_auto">تلقائي</string>
+
+    <string name="grid_label">شبكة التصوير HUD</string>
+    <string name="aspect_ratio">أبعاد الصورة</string>
+    <string name="resolution_label">مستوى المعالجة</string>
+    <string name="resolution_ultra">فائق الدقة (معالجة عصبية محلياً)</string>
+    <string name="resolution_balanced">متوازن (سريع)</string>
+
+    <string name="switch_camera">تبديل الكاميرا</string>
+    <string name="gallery_title">معرض اللقطات المعالجة</string>
+    <string name="processing_ai">جارِ توليد تفاصيل 100X وإزالة الضوضاء...</string>
+    <string name="saved_success">تم الحفظ في ذاكرة الجهاز بنجاح</string>
+    <string name="error_capture">فشل الالتقاط. يُرجى المحاولة مرة أخرى.</string>
+
+    <string name="permission_camera_title">مطلوب إذن الوصول للكاميرا</string>
+    <string name="permission_camera_desc">يتطلب ZMRAWE CAM 100x إذن الكاميرا والميكروفون لالتقاط الصور وتسجيل الفيديو عالي الوضوح دون اتصال بالإنترنت.</string>
+    <string name="grant_permission">منح الأذونات</string>
+    <string name="no_media">لا توجد وسائط ملتقطة بعد. التقط صورتك الأولى بتكبير 100X!</string>
+
+    <string name="filter_original">الأصل</string>
+    <string name="filter_ai_boost">تعزيز ذكي</string>
+    <string name="filter_cyber">سايبر HUD</string>
+    <string name="filter_night">الرؤية الليلية</string>
+    <string name="filter_monochrome">أبيض وأسود عالي الحدة</string>
+
+    <string name="hud_stabilizer">تثبيت بصري/رقمي: نشط</string>
+    <string name="hud_fps">إطار/ث: 60</string>
+    <string name="hud_iso">حساسية الضوء: تلقائي</string>
+    <string name="hud_offline_secure">آمن 100% دون اتصال</string>
+    <string name="before_label">قبل المعالجة</string>
+    <string name="after_label">بعد الذكاء الاصطناعي</string>
+    <string name="delete_item">حذف</string>
+    <string name="share_item">مشاركة</string>
+    <string name="close">إغلاق</string>
+</resources>

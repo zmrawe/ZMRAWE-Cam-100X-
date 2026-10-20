@@ -1,0 +1,6 @@
+{
+  "name": "ZMRAWE CAM 100x",
+  "description": "Offline AI camera with 100x super-resolution zoom, real-time noise reduction, smart sharpening, and Arabic & English support.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

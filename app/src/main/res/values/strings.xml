@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">ZMRAWE CAM 100x</string>
+    <string name="mode_photo">PHOTO</string>
+    <string name="mode_video">VIDEO</string>
+    <string name="mode_night">NIGHT AI</string>
+    <string name="mode_pro_sr">100X ULTRA</string>
+
+    <string name="zoom_1x">1X</string>
+    <string name="zoom_3x">3X</string>
+    <string name="zoom_5x">5X</string>
+    <string name="zoom_10x">10X</string>
+    <string name="zoom_30x">30X</string>
+    <string name="zoom_100x">100X</string>
+
+    <string name="ai_engine_active">OFFLINE AI ENGINE ACTIVE</string>
+    <string name="ai_clarity_boost">AI Clarity Boost</string>
+    <string name="noise_reduction">Noise Reduction</string>
+    <string name="smart_sharpening">Smart Sharpening</string>
+    <string name="hdr_fusion">Multi-Frame HDR</string>
+    <string name="edge_enhancement">Edge Enhancement</string>
+    <string name="super_resolution">Super Resolution (SR)</string>
+
+    <string name="capture_photo">Capture Photo</string>
+    <string name="start_recording">Start Recording</string>
+    <string name="stop_recording">Stop Recording</string>
+    <string name="recording">REC</string>
+
+    <string name="settings_title">Camera Configuration</string>
+    <string name="language_title">Language / اللغة</string>
+    <string name="language_auto">Auto (System)</string>
+    <string name="language_english">English</string>
+    <string name="language_arabic">العربية (Arabic)</string>
+
+    <string name="flash_label">Flash</string>
+    <string name="flash_off">Off</string>
+    <string name="flash_on">On</string>
+    <string name="flash_auto">Auto</string>
+
+    <string name="grid_label">HUD Grid</string>
+    <string name="aspect_ratio">Aspect Ratio</string>
+    <string name="resolution_label">Enhancement Level</string>
+    <string name="resolution_ultra">Ultra High (Offline SR)</string>
+    <string name="resolution_balanced">Balanced (Fast)</string>
+
+    <string name="switch_camera">Switch Camera</string>
+    <string name="gallery_title">AI Capture Vault</string>
+    <string name="processing_ai">Synthesizing 100X details &amp; denoise...</string>
+    <string name="saved_success">Saved to device storage</string>
+    <string name="error_capture">Capture failed. Please try again.</string>
+
+    <string name="permission_camera_title">Camera Access Required</string>
+    <string name="permission_camera_desc">ZMRAWE CAM 100x needs camera and microphone permissions to capture ultra-clarity photos and videos completely offline.</string>
+    <string name="grant_permission">Grant Permissions</string>
+    <string name="no_media">No captures yet. Shoot your first 100X AI photo or video!</string>
+
+    <string name="filter_original">Original</string>
+    <string name="filter_ai_boost">AI Boost</string>
+    <string name="filter_cyber">Cyber HUD</string>
+    <string name="filter_night">Night Owl</string>
+    <string name="filter_monochrome">B&amp;W Clarity</string>
+
+    <string name="hud_stabilizer">OIS/EIS STAB: ON</string>
+    <string name="hud_fps">FPS: 60</string>
+    <string name="hud_iso">ISO: AUTO</string>
+    <string name="hud_offline_secure">100% OFFLINE SECURE</string>
+    <string name="before_label">Before</string>
+    <string name="after_label">AI Enhanced</string>
+    <string name="delete_item">Delete</string>
+    <string name="share_item">Share</string>
+    <string name="close">Close</string>
+</resources>
