@@ -1,0 +1,20 @@
+workflows:
+  android-release:
+    name: Android Release Build
+    max_build_duration: 60
+    environment:
+      vars:
+        JAVA_VERSION: 17
+    cache:
+      - .gradle
+      - ~/.gradle
+      - ~/.m2
+      - ~/.android/build-cache
+    scripts:
+      - name: Build Release AAB
+        script: |
+          chmod +x ./gradlew
+          ./gradlew bundleRelease --no-daemon --parallel
+    artifacts:
+      - app/build/outputs/**/*.aab
+      - app/build/outputs/**/*.apk
