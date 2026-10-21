@@ -1,0 +1,18 @@
+workflows:
+  android-release:
+    name: Build Android Release
+    max_build_duration: 60
+    environment:
+      vars:
+        JAVA_VERSION: 17
+    scripts:
+      - name: Set up JDK
+        script: |
+          sudo apt-get update
+          sudo apt-get install openjdk-17-jdk -y
+      - name: Build Release AAB
+        script: |
+          ./gradlew bundleRelease
+    artifacts:
+      - app/build/outputs/**/*.aab
+      - app/build/outputs/**/*.apk
