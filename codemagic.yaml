@@ -2,20 +2,31 @@ workflows:
   android-release:
     name: Android Release Build
     max_build_duration: 60
+    instance_type: mac_mini_m1
     environment:
       vars:
         JAVA_VERSION: 17
-    cache:
-      cache_paths:
-        - .gradle
-        - ~/.gradle
-        - ~/.m2
-        - ~/.android/build-cache
+        GRADLE_OPTS: -Xmx4g -Dorg.gradle.daemon=false
+      android_signing:
+        - keystore_reference
     scripts:
+      - name: Prepare signing keystore
+        script: |
+          if [ -n "$CM_KEYSTORE" ]; then
+            echo "$CM_KEYSTORE" | base64 --decode > "$CM_BUILD_DIR/my-upload-key.jks"
+            echo "KEYSTORE_PATH=$CM_BUILD_DIR/my-upload-key.jks" >> "$CM_ENV"
+          fi
+
+          if [ -n "$KEYSTORE_PATH" ]; then
+            echo "Using keystore: $KEYSTORE_PATH"
+          else
+            echo "WARNING: KEYSTORE_PATH is not set. Add it in Codemagic environment variables or use Android signing."
+          fi
+
       - name: Build Release AAB
         script: |
           chmod +x ./gradlew
-          ./gradlew bundleRelease --no-daemon --parallel
+          ./gradlew clean bundleRelease --no-daemon --parallel --stacktrace
     artifacts:
       - app/build/outputs/**/*.aab
       - app/build/outputs/**/*.apk
