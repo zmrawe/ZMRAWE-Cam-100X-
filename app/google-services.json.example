@@ -1,0 +1,37 @@
+{
+  "project_info": {
+    "project_number": "000000000000",
+    "firebase_url": "https://your-project-default-rtdb.firebaseio.com",
+    "project_id": "your-project-id",
+    "storage_bucket": "your-project-id.firebasestorage.app",
+    "database_url": "https://your-project-id-default-rtdb.firebaseio.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:000000000000:android:0000000000000000000000",
+        "android_client_info": {
+          "package_name": "com.aistudio.zmrawecam.hvxkqz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "YOUR_API_KEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        },
+        "analytics_service": {
+          "status": "NOT_AVAILABLE"
+        },
+        "appcheck_service": {
+          "status": "NOT_AVAILABLE"
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
